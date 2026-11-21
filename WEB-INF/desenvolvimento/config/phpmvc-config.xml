@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <form-beans>
+        <form-bean name="usuarioForm" type="classes.form.UsuarioForm" />
+    </form-beans>
+
+    <action-mappings>
+        <action path="/usuario" type="classes.action.UsuarioAction" name="usuarioForm">
+            <forward name="login" path="/tpl/usuario/login.tpl" />
+            <forward name="cadastro" path="/tpl/usuario/cadastro.tpl" />
+            <forward name="dashboard" path="/tpl/dashboard/index.tpl" redirect="true" />
+        </action>
+    </action-mappings>
+</config>

@@ -1,0 +1,19 @@
+# Credenciais e configuração local (use os arquivos .example como modelo)
+phinx.yml
+.env
+
+# Dependências do Composer (reinstale com: php composer.phar install)
+vendor/
+composer.phar
+
+# Arquivos gerados em tempo de execução
+WEB-INF/desenvolvimento/cache/*
+WEB-INF/desenvolvimento/templates_c/*
+!WEB-INF/desenvolvimento/cache/.gitkeep
+!WEB-INF/desenvolvimento/templates_c/.gitkeep
+
+# IDE / sistema
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

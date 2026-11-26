@@ -17,3 +17,6 @@ WEB-INF/desenvolvimento/templates_c/*
 .vscode/
 Thumbs.db
 .DS_Store
+
+# Documentação pessoal (não versionar)
+docs/
